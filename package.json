@@ -1,7 +1,10 @@
 {
-  "name": "Community",
+  "path": "Community",
   "version": "0.0.1",
   "dependencies": {
+    "bluebird": "^3.4.6",
+    "check-types": "^7.0.1",
+    "dynamic-object-generator": "^0.1.0",
     "express": "^4.14.0",
     "node-json-db": "^0.7.3"
   }

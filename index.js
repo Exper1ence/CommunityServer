@@ -1,6 +1,6 @@
-
-let http = require('express')();
-let community = require('./bin/community');
+require('bluebird');
+const http = require('express')();
+const community = require('./bin/community');
 
 http.set('port', (process.env.PORT || 5000));
 
