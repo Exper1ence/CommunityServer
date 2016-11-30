@@ -3,6 +3,3 @@
 
 # Local node modules
 node_modules/
-
-# Test files
-test/
