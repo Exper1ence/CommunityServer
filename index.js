@@ -1,6 +1,4 @@
-/**
- * Created by greyman on 2016/11/30.
- */
+
 let http = require('express')();
 let community = require('./bin/community');
 
