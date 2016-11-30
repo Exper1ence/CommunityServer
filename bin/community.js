@@ -4,7 +4,7 @@
 let app = require('express')();
 
 app.get('/', (req, res, next) => {
-    res.send('welcome to Community beta');
+    res.send('Welcome to Community beta v0.0.1');
 });
 
 module.exports = app;
