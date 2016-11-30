@@ -25,17 +25,16 @@ post.save()
         console.log(posts);
         return Post.update({content: /cont/}, {b: 3}, 2)
     })
-    .then(() => {
-        return Post.find({content: /cont/})
-    })
-    .then((posts) => {
-        console.log(posts);
-        return Post.remove({content: /cont/}, 2)
-    })
-    .then(() => {
-        return Post.find({content: /cont/})
-    })
-    .then((posts) => {
-        console.log(posts);
-    })
-    ;
+    // .then(() => {
+    //     return Post.find({content: /cont/})
+    // })
+    // .then((posts) => {
+    //     console.log(posts);
+    //     return Post.remove({content: /cont/}, 2)
+    // })
+    // .then(() => {
+    //     return Post.find({content: /cont/})
+    // })
+    // .then((posts) => {
+    //     console.log(posts);
+    // });

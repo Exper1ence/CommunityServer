@@ -5,7 +5,7 @@ const Model = require('./_Model');
 
 class Post {
     constructor() {
-        this.content = "blablabla";
+        this.content = "content";
     }
     
     save() {
