@@ -1,2 +1,2 @@
 # Community
-An android app using nodejs.
+An simple server app using nodejs.
