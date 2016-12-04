@@ -6,7 +6,6 @@
     "check-types": "^7.0.1",
     "dynamic-object-generator": "^0.2.1",
     "express": "^4.14.0",
-    "nedb": "^1.8.0",
-    "node-json-db": "^0.7.3"
+    "nedb": "^1.8.0"
   }
 }
