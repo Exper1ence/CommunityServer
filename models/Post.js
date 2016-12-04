@@ -3,15 +3,4 @@
  */
 const Model = require('./_Model');
 
-class Post {
-    constructor() {
-        this.content = "content";
-    }
-    
-    save() {
-        return Post._save({content: this.content});
-    }
-}
-Reflect.setPrototypeOf(Post, new Model('Post'));
-
-module.exports = Post;
+module.exports = new Model('PostCollection');
