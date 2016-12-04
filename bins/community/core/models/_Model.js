@@ -16,11 +16,15 @@ class Model {
         return this._operate('find', query, projection);
     }
     
+    findOne(query, projection) {
+        return this._operate('findOne', query, projection);
+    }
+    
     update(query, update, options) {
         return this._operate('update', query, update, options);
     }
     
-    remove(query, options) {
+    remove(query, options={}) {
         return this._operate('remove', query, options);
     }
     

@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "dependencies": {
     "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
     "check-types": "^7.0.1",
     "dynamic-object-generator": "^0.2.1",
     "express": "^4.14.0",
+    "lodash": "^4.17.2",
     "nedb": "^1.8.0"
   }
 }
