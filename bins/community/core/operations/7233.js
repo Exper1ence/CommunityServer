@@ -8,8 +8,8 @@ module.exports = {
         offset: "",
         length: "",
     },
-    handle({user, info, Models}){
-        return Models.Post.find({})
+    handle({info, models}){
+        return models.post.find({})
             .then((docs) => {
                 docs = docs.slice(info.offset, info.offset + info.length);
                 if (docs.length > 0) {

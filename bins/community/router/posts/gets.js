@@ -5,7 +5,7 @@ const router = require('express').Router();
 
 router.get('/', (req, res) => {
     const {ac, cm, l, o,}=req.query;
-    Community.handle({}, {
+    Community.handle( {
         action: ac,
         community: cm,
         offset: o,

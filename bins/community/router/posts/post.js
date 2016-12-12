@@ -6,7 +6,7 @@ const table = Community.table;
 
 router.post('/', (req, res, next) => {
     const {ac, cm, ct}=req.body;
-    Community.handle({}, {
+    Community.handle( {
         action: ac,
         community: cm,
         content: ct,

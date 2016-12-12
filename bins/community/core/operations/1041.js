@@ -8,8 +8,8 @@ module.exports = {
         community: "",
         content: "",
     },
-    handle({user, info, Models}){
-        return Models.Post.insert({content: info.content})
+    handle({info, models}){
+        return models.post.insert({content: info.content})
             .then(() => {
                 return {done: true, msg: "帖子发表成功"}
             });

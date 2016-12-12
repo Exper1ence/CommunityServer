@@ -5,7 +5,7 @@ const router = require('express').Router();
 
 router.delete('/:id', (req, res) => {
     const {ac, cm}=req.query;
-    Community.handle({}, {
+    Community.handle({
         action: ac,
         community: cm,
         _id: req.params.id,

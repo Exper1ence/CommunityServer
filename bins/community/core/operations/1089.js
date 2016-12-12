@@ -8,8 +8,8 @@ module.exports = {
         community: "",
         _id: "帖子不存在",
     },
-    handle({user, info, Models}){
-        return Models.Post.findOne({_id: info._id})
+    handle({info, models}){
+        return models.post.findOne({_id: info._id})
             .then((doc) => {
                 if (doc) {
                     return {done: true, ctt: doc}

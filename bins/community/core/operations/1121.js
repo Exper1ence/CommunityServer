@@ -7,8 +7,8 @@ module.exports = {
         community: "",
         _id: "帖子已被删除",
     },
-    handle({user, info, Models}){
-        return Models.Post.remove({_id: info._id})
+    handle({info, models}){
+        return models.post.remove({_id: info._id})
             .then((count) => {
                 if (count > 0) {
                     return {done: true, msg: "帖子删除成功"};
